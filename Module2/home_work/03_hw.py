@@ -31,3 +31,10 @@
 # 20 199.8 Rub.
 
 # TODO: your code here
+
+c=float(input("Введите цену товара: "))
+n=19
+i=0
+while i <=n:
+    i=i+1
+    print(i,round(c*i,2), "Rub")
