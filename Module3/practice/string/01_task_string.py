@@ -5,6 +5,7 @@
 
 name = input("Имя: ")
 surname = input("Фамилия: ")
+name1 = name.capitalize()
+surname1 = surname.capitalize()
 
-
-print(name, surname)
+print(name1, surname1)
